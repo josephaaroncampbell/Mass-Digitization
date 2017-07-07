@@ -14,13 +14,13 @@ From Rights and Reproductions the negatives then travel the Archivist who works 
 
 ## Repository
 
-This repository contains the workflow documentation for the digitization of the nitrate materials. Its main focus is to house the source code used for the automated production of derivatives. This code is used in 'Workflow Part 3: Automated Derivative Output' to apply relevant, unique tonal adjustments to archival source images in order to output access derivatives. 
+This repository contains the workflow documentation for the digitization of the nitrate materials. Its main focus is to house the source code used for the automated production of derivatives. This code is used in 'Workflow Part 3: Automated Derivative Output' to apply relevant, unique tonal adjustments to archival source images in order to output access derivatives. The code applies tonal adjustments based on the mean, max, min, and peak values from a custom histogram for each image. Because of this, each image recieves an individual , more natural, and accurate tonal adjustment. The goal is not to completely replace the user/operator, but rather remove as much of the editing work as possible. 
 
 The code utilized a Windows Batch file to recursively analyze, edit, and output image files using ImageMagick and PowerShell to do the heavy lifting. The future goal for this project is to have a clean, user friendly program built in C++ that is portable to multiple operating systems. 
 
 ## Wiki
 
-The wiki of this repository is a close duplicate of the provided workflow. Please refer to the Wiki or workflow to determine the proper usage of this automation code.
+The wiki of this repository is a close duplicate of the provided workflow. Please refer to the wiki or workflow to determine the proper usage of this automation code.
 
 ### Progress:
 
