@@ -19,3 +19,4 @@ $rgbArray = Get-Content 'hist3.txt' | ForEach-Object { $_.Split(" ")[1] }; for( 
 	 break
   }
 }
+ 
