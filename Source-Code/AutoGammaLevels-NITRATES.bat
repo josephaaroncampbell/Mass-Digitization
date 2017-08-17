@@ -35,7 +35,7 @@ pause
   for %%a in (%folderpath%) do for %%b in ("%%~dpa\.") do set "parentFolder=%%~nxb"
   
   echo fullPath = %fullPath%
-  echo folderPath = %folderPath%
+  echo folderPath = %folderPath% 
   echo parentFolder = %parentFolder%
   echo filename = %fileName%
 
