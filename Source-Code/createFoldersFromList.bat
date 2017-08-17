@@ -21,3 +21,4 @@ echo create folder for each line of text file
   )
 
 del %~dp0folderNameList.txt
+ 
