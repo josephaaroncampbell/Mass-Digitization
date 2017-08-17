@@ -275,4 +275,4 @@ executeAction( idsetd, desc19, DialogModes.NO );
 //restore image to original 
 function revertHistory(){
     executeAction( charIDToTypeID( "Rvrt" ), undefined, DialogModes.NO );
-}// end function------------------------------------------------------
+}// end function------------------------------------------------------ 
