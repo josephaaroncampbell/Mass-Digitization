@@ -1,5 +1,3 @@
-# IMLS-Digitization
-
 ## Overview
 
 This code and workflow were created to allow the digitization of 35,000 negatives over 70 collections from 8x10 negatives, 6x9, 5x7, 4x5, and down to 35mm roll film. The condition of the negatives ranges from good to extreme curl or degradation.
