@@ -2,17 +2,11 @@
 
 ## Overview
 
-The Chicago History Museum received federal IMLS funding in 2016 to digitize, provide discovery and access, then store its Nitrate Collection. The digitization covers 35,000 negatives over 70 collections from 8x10 negatives, 6x9, 5x7, 4x5, and down to 35mm roll film. The condition of the negatives ranges from good to extreme curl or degradation.
+This code and workflow were created to allow the digitization of 35,000 negatives over 70 collections from 8x10 negatives, 6x9, 5x7, 4x5, and down to 35mm roll film. The condition of the negatives ranges from good to extreme curl or degradation.
 
-The whole digitization process starts with the Rights and Reproduction department who pulls, organizes, and provides file naming and metadata for each collection.
+Each negative was digitized following FADGI standards, converted to an 'Archive Master' digital image as well as a Production Master access file.
 
-From there the negatives are brought to the photography studio for digitization. During which each negative is digitized according to FADGI standards, converted to an 'Archive Master' digital image as well as a Production Master access file.
-
-After digitization, the negatives are taken back to Rights and Reproductions where they may receive more conservation or minor corrections to file naming or organization.
-
-From Rights and Reproductions the negatives then travel the Archivist who works with conservation to pack and store the negatives in specially purchased, explosion proof freezers.
-
-## Repository
+## Git Repository
 
 This repository contains the workflow documentation for the digitization of the nitrate materials. Its main focus is to house the source code used for the automated production of derivatives. This code is used in [Workflow Part 3: Automated Derivative Output](https://github.com/josephaaroncampbell/Mass-Digitization/wiki/Workflow-Part-3:-Automated-Derivative-Output) to apply relevant, unique tonal adjustments to archival source images in order to output access derivatives. The code applies tonal adjustments based on the mean, max, min, and peak values from a custom histogram for each image. Because of this, each image recieves an individual , more natural, and accurate tonal adjustment. The goal is not to completely replace the user/operator, but rather remove as much of the editing work as possible. 
 
